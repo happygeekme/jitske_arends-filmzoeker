@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Filmzoeker</title>
+  </head>
+  <body>
+    <header>Welkom bij de Winc Filmzoeker</header>
+    <nav>
+      <ul id="filterBtns">
+        <li>
+          <input type="radio" id="newest" name="filter" value="newest" />
+          <label for="newest" class="label">Nieuwste films</label>
+        </li>
+        <li>
+          <input type="radio" id="avengers" name="filter" value="avengers" />
+          <label for="avengers" class="label">Films met Avengers</label>
+        </li>
+        <li>
+          <input type="radio" id="xmen" name="filter" value="xmen" />
+          <label for="xman" class="label">Films met X-men</label>
+        </li>
+        <li>
+          <input type="radio" id="princess" name="filter" value="princess" />
+          <label for="princess" class="label">Films met Princess</label>
+        </li>
+        <li>
+          <input type="radio" id="batman" name="filter" value="batman" />
+          <label for="batman" class="label">Films met Batman</label>
+        </li>
+        <li>
+          <input type="text" id="search" />
+          <div id="result"></div>
+          <label for="search" class="label">Zoek</label>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="movieContainer">
+      <ul id="selectedMovies"></ul>
+    </div>
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>

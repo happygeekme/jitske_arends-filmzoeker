@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+header {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+#filterBtns {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#filterBtns li {
+  display: flex;
+  align-items: stretch;
+  margin: 5px;
+  width: 15%;
+}
+
+#search {
+  width: 90%;
+}
+
+.label {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#result {
+  display: none;
+}
+
+#selectedMovies {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#selectedMovies li {
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
